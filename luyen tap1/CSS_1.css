@@ -1,0 +1,53 @@
+* {
+    text-align: center;
+}
+
+.box {
+    width: 100%;
+    height: 50%;
+    background-color: blue;
+    color: white;
+    text-align: center;
+    margin: 30px;
+    padding: 20px;
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+}
+
+.link {
+    color: blue;
+    text-decoration: none;
+}
+
+.picture {
+    border-radius: 100%;
+    object-fit: cover;
+}
+
+.title {
+    font-size: 28px;
+    font-weight: bold;
+    margin: 0 0 10px;
+}
+
+
+.profile {
+    width: 80%;
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 30px;
+    background: white;
+    border-radius: 12px;
+    display: flex;
+    /* Sử dụng Flexbox để căn chỉnh */
+    align-items: center;
+    /* Căn giữa theo chiều dọc */
+    gap: 30px;
+    /* Tạo khoảng cách giữa ảnh và nội dung */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    /* Tạo hiệu ứng bóng */
+}
