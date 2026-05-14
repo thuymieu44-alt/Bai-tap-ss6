@@ -1,0 +1,84 @@
+* {
+    text-decoration: none;
+
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    /* tiêu đề bên trái, menu bên phải */
+    align-items: center;
+    /* căn giữa theo chiều dọc */
+    padding: 10px 20px;
+}
+
+.tittle {
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.navbar {
+    gap: 20px;
+    /* khoảng cách giữa các mục */
+    display: flex;
+}
+
+.navbar a {
+    color: white;
+
+}
+
+.picture {
+    border-radius: 100%;
+    object-fit: cover;
+}
+
+.main-title {
+    font-size: 16px;
+    margin: 0 0 10px;
+}
+
+.main-container {
+    display: flex;
+    background-color: rgb(214, 219, 219);
+    margin: 40px left;
+    padding: 30px;
+    border-radius: 12px;
+    align-items: center;
+    gap: 30px;
+}
+
+.content {
+    justify-content: space-between;
+    background-color: black;
+    margin: auto;
+    gap: 20px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    flex-wrap: wrap;
+    margin-left: 20px;
+    height:40px;
+}
+
+.content a {
+    color: white;
+    padding: 50px;
+    margin: 25px;
+    margin-bottom: 20px;
+}
+
+.connection {
+    background-color: rgb(214, 219, 219);
+    text-align: center;
+    margin-top: 10px;
+    border: 50px;
+}
+
+.connection a {
+    font-weight: 700;
+    color: black;
+}
